@@ -3,8 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document Elia Stevani S</title>
+    <title>Project</title>
     <link rel="stylesheet" href="css\style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h2>Moqups</h2>
+      <div class="menu">
+        <button>Home</button>
+        <button>Our Package</button>
+        <button>Call Us</button>
+      </div>
+    </header>
+    <header class="title">
+      <h1 class="judul">Your Trusted Travel Agent's</h1>
+      <h3 class="title2">Your Happinerr is Our Happiness</h3>
+    </header>
+    <div class="collab">
+      <div class="cont">
+        <div class="gambar">
+          <div class="slider">
+            <div class="slide" style="background-image: url('gambar.jpeg')">
+              <!-- Gambar bisa ditambahkan menggunakan background-image -->
+            </div>
+            <div class="slide" style="background-image: url('profile.jpeg')">
+              <!-- Gambar kedua -->
+            </div>
+            <div class="slide" style="background-image: url('image3.jpg')">
+              <!-- Gambar ketiga -->
+            </div>
+            <!-- Tambahkan lebih banyak slide sesuai kebutuhan -->
+          </div>
+        </div>
+        <figcaption class="caption">
+          "Kau tahu, kenapa kebanyakan pegiat alam susah dapat jodoh? Karena, di
+          gunung, kami banyak belajar tentang cara berbagi, cara mendengarkan,
+          cara merawat, juga cara mencintai. Tapi, kami tidak pernah belajar
+          tentang cara memiliki." - Fiersa Besari
+        </figcaption>
+        <div class="profile">
+          <img class="dp" src="profile.jpeg" alt="" />
+          <div class="instagram">
+            <h4>Instagram</h4>
+            <i class="username">eliaastevani.s</i>
+          </div>
+        </div>
+        <hr class="line" />
+      </div>
+      <section class="kotak">
+        <h2>Register</h2>
+        <p>Kami akan menghubungi Anda 1x24 Jam setelah data Anda kami terima</p>
+        <form id="myForm">
+          <p>Name</p>
+          <input type="text" placeholder="nama lengkap" />
+          <div id="nameError" class="error"></div>
+          <p>Email</p>
+          <input type="email" placeholder="example@gmail.com" />
+          <div id="emailError" class="error"></div>
+          <p>Interest?</p>
+          <select id="interest">
+            <option value="">Select an option</option>
+            <option value="option1">Riding</option>
+            <option value="option2">Hiking</option>
+            <option value="option2">Climbing</option>
+          </select>
+          <div id="interestError" class="error"></div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="js\script.js"></script>
+  </body>
 </html>
